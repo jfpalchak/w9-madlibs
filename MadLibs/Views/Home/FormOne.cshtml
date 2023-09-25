@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MadLibs</title>
+  <link 
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" 
+      rel="stylesheet" 
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" 
+      crossorigin="anonymous">
+</head>
+<body>
+  @* USER INPUT *@
+  <h1 class="container">Fill out the following form to create your MadLibs story!</h1>
+  <form action="/excuse" method="post" class="container">
+    <label for="name">A Name:</label>
+    <input id="name" name="name" type="text">
+    <br />
+    <label for="bodyPart">A Body Part:</label>
+    <input id="bodyPart" name="bodyPart" type="text">
+    <br />
+    <label for="typeOfFluid">A Type of Fluid:</label>
+    <input id="typeOfFluid" name="typeOfFluid" type="text">
+    <br />
+    <label for="aSubstance">A Substance:</label>
+    <input id="aSubstance" name="aSubstance" type="text">
+    <br />
+    <button type="submit" class="btn btn-success">MadLib it!</button>
+  </form>
+</body>
+</html>
