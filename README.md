@@ -7,6 +7,7 @@
 ## Technologies Used
 
 * C# 10
+* HTML
 * .NET 6
 * ASP.NET Core MVC 6
 
